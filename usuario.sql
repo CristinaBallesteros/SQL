@@ -31,7 +31,7 @@ CREATE TABLE `usuario` (
   `ID` int(11) NOT NULL,
   `NOMBRE` varchar(20) DEFAULT NULL,
   `APELLIDO` varchar(20) DEFAULT NULL,
-  `EMALI` varchar(20) DEFAULT NULL
+  `EMAIL` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
